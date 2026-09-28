@@ -45,7 +45,7 @@ This module focused on using **John the Ripper (JtR)** to recover the password o
 
 Installed and configured John the Ripper in Kali Linux to prepare the environment for password cracking.
 
-![Install John the Ripper](screenshots/install_jtr.png)
+![Install John the Ripper](week3/install_jtr.png)
 
 ---
 
@@ -53,7 +53,7 @@ Installed and configured John the Ripper in Kali Linux to prepare the environmen
 
 Extracted the password hash from the provided protected file so that it could be processed by John the Ripper.
 
-![Extract password hash](screenshots/extract_hash.png)
+![Extract password hash](week3/extract_hash.png)
 
 ---
 
@@ -61,7 +61,7 @@ Extracted the password hash from the provided protected file so that it could be
 
 Loaded the extracted hash into John the Ripper and performed the password-cracking process to recover the password.
 
-![Crack password with John the Ripper](screenshots/crack_pw.png)
+![Crack password with John the Ripper](week3/crack_pw.png)
 
 ---
 
@@ -69,7 +69,7 @@ Loaded the extracted hash into John the Ripper and performed the password-cracki
 
 Used the recovered password to unlock the protected file and verify that the password was successfully recovered.
 
-![Unlock protected PDF](screenshots/unlock_pdf1.png)
+![Unlock protected PDF](week3/unlock_pdf1.png)
 
 ---
 
@@ -89,7 +89,7 @@ This module focused on using **NW Tools** to recover the password of a second pr
 
 Loaded the second protected PDF and obtained the password hash required for the cracking process.
 
-![Obtain PDF hash](screenshots/hash_pdf2.png)
+![Obtain PDF hash](week3/hash_pdf2.png)
 
 ---
 
@@ -97,7 +97,7 @@ Loaded the second protected PDF and obtained the password hash required for the 
 
 Used NW Tools to perform a dictionary attack against the extracted PDF password hash.
 
-![Crack password with NW Tools](screenshots/crack_pw2.png)
+![Crack password with NW Tools](week3/crack_pw2.png)
 
 ---
 
@@ -105,7 +105,7 @@ Used NW Tools to perform a dictionary attack against the extracted PDF password 
 
 Used the recovered password to unlock the second protected PDF.
 
-![Unlock second PDF](screenshots/unlock_Pdf2.png)
+![Unlock second PDF](week3/unlock_Pdf2.png)
 
 ---
 
@@ -127,7 +127,7 @@ The exercise demonstrated how Claude Desktop can interact with security tools th
 
 Configured Claude Desktop and the Hexstrike MCP server in Kali Linux to prepare the AI-assisted password-cracking environment.
 
-![Set up MCP server](screenshots/setup_mcpserver.png)
+![Set up MCP server](week3/setup_mcpserver.png)
 
 ---
 
@@ -135,7 +135,7 @@ Configured Claude Desktop and the Hexstrike MCP server in Kali Linux to prepare 
 
 Edited the Claude Desktop configuration file to connect the Claude client with the Hexstrike MCP server.
 
-![Edit Claude Desktop configuration](screenshots/edit_config.png)
+![Edit Claude Desktop configuration](week3/edit_config.png)
 
 ---
 
@@ -143,7 +143,7 @@ Edited the Claude Desktop configuration file to connect the Claude client with t
 
 Checked the MCP server health to verify that the server was running correctly and that the connection was working.
 
-![Check server health](screenshots/server_health.png)
+![Check server health](week3/server_health.png)
 
 ---
 
@@ -151,7 +151,7 @@ Checked the MCP server health to verify that the server was running correctly an
 
 Used Claude Desktop to issue the password-cracking command through the connected MCP security tools and recover the password of the third provided file.
 
-![Unlock third protected PDF](screenshots/unlock_pdf3.png)
+![Unlock third protected PDF](week3/unlock_pdf3.png)
 
 ---
 
